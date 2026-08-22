@@ -1,0 +1,18 @@
+Third-party notices
+===================
+
+This repository includes code derived from other open-source projects.
+Their licenses remain in force for those components.
+
+- freetype/ (golang/freetype and golang.org/x/image/font/{sfnt,opentype}): BSD-style
+  See freetype/LICENSE
+- golang.org/x/image/ccitt and other Go module dependencies: see vendor/*/LICENSE
+  (or the module's LICENSE when not vendored)
+
+WPS / schemas.wps.cn XML namespaces appearing in OOXML samples are format
+interop identifiers defined by document markup, not product branding of this
+library.
+
+Application / generator strings such as "WPS" found inside *parsed* documents
+are foreign metadata from the source files. New documents created by this
+library identify as Leafdoc (not as WPS or Microsoft Office).
